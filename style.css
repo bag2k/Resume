@@ -1,0 +1,187 @@
+body{
+    margin: 0;
+    padding: 0; 
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+hr{
+    width: 85%;
+    height: 3px;
+    background-color: orange;
+    border: none;
+}
+h1{
+    color: white;
+    margin-left: 130px;
+    margin-top: -70px;
+    margin-bottom: 0;
+}
+h3{
+    color: white;
+    margin-left: 130px;
+}
+h4{
+    color: white;
+    margin-left: 10px;
+}
+li{
+    margin-left: 30px;
+    color: white;
+}
+h5{
+    color: white;
+    margin-left: 10px;
+}
+h6{
+    color: white;
+    margin-left: 20px;
+}
+
+
+.container{
+    margin: 20px;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.con-01{
+    background: black;
+    position: relative;
+    flex: 1;
+    max-width: 940px;
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+img{
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.fa-location-dot{
+    margin-left: 130px;
+    padding: 10px;
+    color: orange;
+}
+
+.fa-phone{
+    margin-left: 130px;
+    padding: 10px;
+    color: orange;
+}
+.fa-envelope{
+    margin-left: 130px;
+    padding: 10px;
+    margin-top: -70px;
+    color: orange;
+}
+.fa-envelope:hover{
+    color: white;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.fa-phone:hover{
+    color: white;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.fa-location-dot:hover{
+    color: white;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.phnum{
+    margin-top: -30px;
+    margin-left: 170px;
+    color: white;
+}
+.email{
+    margin-top: -30px;
+    margin-left: 170px;
+    color: white;
+}
+.location{
+    margin-top: -30px;
+    margin-left: 170px;
+    color: white;
+}
+
+.obj{
+    color: white;
+    margin-left: 130px;
+    margin-right: 100px;
+}
+
+
+
+
+.con-02{
+    background: black;
+    position: relative;
+    flex: 1;
+    max-width: 460px;
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.con-03{
+    background: black;
+    position: relative;
+    flex: 1;
+    max-width: 940px;
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.con-04{
+    background: black;
+    position: relative;
+    flex: 1;
+    max-width: 300px;
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.con-05{
+    background: black;
+    position: relative;
+    flex: 1;
+    max-width: 940px;
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+@media (max-width: 800px) {
+    .con-01{
+        flex: 100%;
+        max-width: 600px;
+    }
+    .con-02{
+        flex: 100%;
+        max-width: 600px;
+    }
+    .con-03{
+        flex: 100%;
+        max-width: 600px;
+    }
+    .con-04{
+        flex: 100%;
+        max-width: 600px;
+    }
+}
