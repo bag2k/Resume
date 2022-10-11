@@ -2,39 +2,36 @@ body{
     margin: 0;
     padding: 0; 
     font-family: 'Poppins', sans-serif;
-    background-color: black;
+    /* font-family: 'Dancing Script', cursive; */
+    background-color: rgb(235, 233, 233);
+    color: black;
+    font-weight: bold;
 }
 hr{
-    width: 85%;
+    width: 100%;
     height: 3px;
     background-color: orange;
     border: none;
 }
 h1{
-    color: white;
-    margin-left: 130px;
-    margin-top: -70px;
+    margin-left: 150px;
+    margin-top: -127px;
     margin-bottom: 0;
 }
 h3{
-    color: white;
     margin-left: 130px;
 }
 h4{
-    color: white;
-    margin-left: 10px;
+    margin-left: 50px;
 }
 li{
-    margin-left: 30px;
-    color: white;
+    margin-left: 60px;
 }
 h5{
-    color: white;
-    margin-left: 10px;
+    margin-left: 70px;
 }
 h6{
-    color: white;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 
@@ -50,35 +47,31 @@ h6{
 }
 
 .con-01{
-    background: black;
+    background: white;
     position: relative;
     flex: 1;
     max-width: 940px;
     height: auto;
-    margin: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
 }
 img{
-    margin-top: 15px;
-    margin-left: 10px;
+    margin-top: 50px;
+    margin-left: 20px;
     border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
 .fa-location-dot{
-    margin-left: 130px;
-    padding: 10px;
+    margin-left: 150px;
     color: orange;
 }
 
 .fa-phone{
-    margin-left: 130px;
-    padding: 10px;
+    margin-left: 150px;
     color: orange;
 }
 .fa-envelope{
-    margin-left: 130px;
-    padding: 10px;
+    margin-left: 150px;
     margin-top: -70px;
     color: orange;
 }
@@ -100,21 +93,17 @@ img{
 .phnum{
     margin-top: -30px;
     margin-left: 170px;
-    color: white;
 }
 .email{
     margin-top: -30px;
     margin-left: 170px;
-    color: white;
 }
 .location{
     margin-top: -30px;
     margin-left: 170px;
-    color: white;
 }
 
 .obj{
-    color: white;
     margin-left: 130px;
     margin-right: 100px;
 }
@@ -123,51 +112,43 @@ img{
 
 
 .con-02{
-    background: black;
+    background: white;
     position: relative;
     flex: 1;
-    max-width: 460px;
+    max-width: 470px;
     height: auto;
-    margin: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
 }
 
 
 .con-03{
-    background: black;
+    background: white;
     position: relative;
     flex: 1;
     max-width: 940px;
     height: auto;
-    margin: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
 }
 
 .con-04{
-    background: black;
+    background: white;
     position: relative;
     flex: 1;
-    max-width: 300px;
+    max-width: 313.33px;
     height: auto;
-    margin: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
 }
 .con-05{
-    background: black;
+    background: white;
     position: relative;
     flex: 1;
     max-width: 940px;
     height: auto;
-    margin: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
     .con-01{
         flex: 100%;
         max-width: 600px;
@@ -184,4 +165,5 @@ img{
         flex: 100%;
         max-width: 600px;
     }
+    
 }
